@@ -1,0 +1,33 @@
+body{
+    background-color: lightgray;
+    margin: 0;
+}
+header{
+    background-color: white;
+    padding: 0.01rem;
+}
+div.postHeader{
+    display: flex;
+}
+div.postHeader h2{
+    margin-right: 28rem;
+}
+div.postHeader span{
+    flex: right;
+    margin-top: 5rem;
+}
+div.post{
+    background-color: white;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+div.post img{
+    width: 100%;
+}
+div.post h2, div.post p{
+    padding: 0.8rem;
+}
+div.container{
+    width: 40rem;
+    margin: auto;
+}
