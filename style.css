@@ -8,13 +8,13 @@ header{
 }
 div.postHeader{
     display: flex;
+    width: 100%;
 }
 div.postHeader h2{
-    margin-right: 28rem;
+    margin-right: 70%;
 }
 div.postHeader span{
-    flex: right;
-    margin-top: 5rem;
+    margin-top: 5%;
 }
 div.post{
     background-color: white;
@@ -30,4 +30,13 @@ div.post h2, div.post p{
 div.container{
     width: 40rem;
     margin: auto;
+}
+div.iconContainer{
+    display: flex;
+}
+div.heart, div.comment, div.share, div.bookmark{
+    margin: 0.4rem;
+}
+div.bookmark{
+    margin-left: 75%;
 }
